@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:salmonstone/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:salmonstone/pipelineUser:token
+  username: cloudbees-ci-cd[bot]
+prow:
+  hmacToken: vault:salmonstone/prow:hmacToken
+segmentWriteKey: vault:salmonstone:segmentWriteKey
